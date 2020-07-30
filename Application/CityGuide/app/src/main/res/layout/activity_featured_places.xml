@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".featured_places">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/FeatureToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2874A6"
+        android:titleTextColor="#ffffff"></android.support.v7.widget.Toolbar>
+
+
+    <GridView
+        android:id="@+id/listViewDatafeatured"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2">
+    </GridView>
+</LinearLayout>

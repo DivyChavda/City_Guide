@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".contact_us">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selectorlogin"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mail" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:text="Email"
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text="chavdadivy29@gmail.com" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selectorlogin"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GIVE YOUR FEEDBACK"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/editappname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/appreview"
+                    android:hint="Name"
+                    android:padding="10dp" />
+                <TextView
+                    android:id="@+id/txtuername"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Enter Your Name"
+                    android:textColor="#E74C3C"
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/editappemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/appreview"
+                    android:hint="Email"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/txtuermail"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Enter Your Email"
+                    android:textColor="#E74C3C"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:id="@+id/txtcuruemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Invalid email address"
+                    android:textColor="#E74C3C"
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/editapprphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/appreview"
+                    android:hint="Phone"
+                    android:inputType="number"
+                    android:padding="10dp" />
+                <TextView
+                    android:id="@+id/txtusernumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Enter Your Number"
+                    android:textColor="#E74C3C"
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/editappreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/appreview"
+                    android:gravity="top"
+                    android:hint="Enter Review"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:minLines="5"
+                    android:padding="10dp"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollbars="vertical"></EditText>
+
+                <TextView
+                    android:id="@+id/txtuserreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Enter Your Review"
+                    android:textColor="#E74C3C"
+                    android:visibility="gone"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btnappsubmit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/infobtn"
+                        android:text="SUBMIT"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selectorlogin"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/copyright" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:text="Copyright"
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Copyright 2018 " />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/loginpic"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Cityguide"
+            android:textColor="#ffffff"
+            android:textSize="70dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Welcome back!"
+            android:textColor="#2874A6"
+            android:textSize="35dp" />
+
+        <EditText
+            android:id="@+id/edtLoginUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textboxline"
+            android:drawableLeft="@drawable/mail"
+            android:drawablePadding="10dp"
+            android:hint="Your email address"
+            android:padding="10dp" />
+        <TextView
+            android:id="@+id/txtuemail"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Enter Your Email"
+            android:textColor="#E74C3C"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/edtLoginUserPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textboxline"
+            android:drawableLeft="@drawable/lock"
+            android:inputType="textPassword"
+            android:drawablePadding="10dp"
+            android:hint="Your Password"
+            android:padding="10dp" />
+        <TextView
+            android:id="@+id/txtupass"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Enter Your Password"
+            android:textColor="#E74C3C"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#2874A6"
+            android:textSize="16dp"
+            android:padding="15dp"
+            android:background="@drawable/login"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="50dp"
+            android:text="Login"
+            />
+
+        <TextView
+            android:id="@+id/txtforgetpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Forget Password?"
+            android:textSize="15dp"
+            android:textColor="#909497"
+            />
+        <TextView
+            android:id="@+id/txtsingup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register Now"
+            android:textColor="#2874A6"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+</LinearLayout>

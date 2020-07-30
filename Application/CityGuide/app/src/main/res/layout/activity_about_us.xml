@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_us"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/selectorlogin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:text="Application Name"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="City Guide" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/selectorlogin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the online application that provide brief information about the city by using efficient mobile application. To get the details about top Restaurants, Hotels , Colleges, Schools, University, Hospital, Etc. online CITY GUIDE is an efficient mobile application. It provides every one detailed description about Hotels, Restaurants, Hospitals, ATMs, Banks, Petrol pumps, andtheater listing. For the selected category, the application retrieves appropriate list of options for location. The application provides the full information (address, contact number and other information) for any selected option.Here the end user would be a Mobile user as it’s an Android technology. So that the user can finally implement all the needed operations in their own mobile device. The Mobile User should be able to search appropriate stuff using city. The Mobile User should be able to retrieve the very best activities for the selected city."
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+
+</LinearLayout>

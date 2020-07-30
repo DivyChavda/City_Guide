@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/icon"
+    tools:context=".selector">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cityguide"
+            android:textColor="#ffffff"
+            android:textSize="70dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:layout_marginTop="180dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:text="Explore the best places of the world's most vibrant cities!"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            />
+
+        <Button
+            android:id="@+id/btnselectorlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#2874A6"
+            android:textSize="16dp"
+            android:padding="15dp"
+            android:background="@drawable/selectorlogin"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="80dp"
+            android:text="Login"
+            />
+
+        <Button
+            android:id="@+id/btnselectorsingup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:padding="15dp"
+            android:background="@drawable/selectorsingup"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+            android:text="Singup"
+            />
+    </LinearLayout>
+</LinearLayout>

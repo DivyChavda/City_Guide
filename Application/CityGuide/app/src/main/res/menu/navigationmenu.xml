@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuHome"
+            android:title="Home"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/menuFavorite"
+            android:title="Favorite" />
+
+        <item
+            android:id="@+id/menuAccount"
+            android:title="Account" />
+
+        <item
+            android:id="@+id/menuChangePassword"
+            android:title="Change Password" />
+
+        <item
+            android:id="@+id/menuLogout"
+            android:title="Logout" />
+        <item
+            android:id="@+id/menuLogin"
+            android:title="Login"/>
+        <item
+            android:id="@+id/menuSign_Up"
+            android:title="SignUp"/>
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuAboutUs"
+            android:title="About Us"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/menuContactUs"
+            android:title="Contact Us" />
+    </group>
+
+</menu>
